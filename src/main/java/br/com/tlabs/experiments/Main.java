@@ -15,7 +15,7 @@ public class Main {
 
         disableLogs();
 
-        Runner runner = new Runner();
+        Robot runner = new Robot();
 
         GlobalScreen.addNativeKeyListener(runner);
         GlobalScreen.addNativeMouseListener(runner);

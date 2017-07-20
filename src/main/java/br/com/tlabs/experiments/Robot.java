@@ -18,7 +18,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Stream;
 
-public class Runner implements NativeKeyListener, NativeMouseInputListener {
+public class Robot implements NativeKeyListener, NativeMouseInputListener {
 
     private static final String FILE_NAME = "points.txt";
 
@@ -30,11 +30,11 @@ public class Runner implements NativeKeyListener, NativeMouseInputListener {
 
     private static Point lastPoint;
 
-    public Runner() {
+    public Robot() {
         loadPositions();
     }
 
-    private static void click(Robot r, Point p) {
+    private static void click(java.awt.Robot r, Point p) {
 
         r.mouseMove(p.x, p.y);
         r.mousePress(InputEvent.BUTTON1_MASK);
@@ -97,7 +97,7 @@ public class Runner implements NativeKeyListener, NativeMouseInputListener {
 
                 try {
 
-                    Robot r = new Robot();
+                    java.awt.Robot r = new java.awt.Robot();
 
                     while (run) {
 
