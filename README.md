@@ -20,6 +20,7 @@ All positions are saved on points.txt file with the axys coordinates (x,y). This
 ## TO DO:
 - Customize timeout
 - Code refactor
+- Shortcut to clean all positions
 
 ## DONE
 - [OK] Refresh points instance in runtime execution

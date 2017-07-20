@@ -15,10 +15,10 @@ public class Main {
 
         disableLogs();
 
-        Robot runner = new Robot();
+        RobotListener listener = new RobotListener();
 
-        GlobalScreen.addNativeKeyListener(runner);
-        GlobalScreen.addNativeMouseListener(runner);
+        GlobalScreen.addNativeKeyListener(listener);
+        GlobalScreen.addNativeMouseListener(listener);
 
     }
 
