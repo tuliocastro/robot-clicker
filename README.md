@@ -19,5 +19,7 @@ All positions are saved on points.txt file with the axys coordinates (x,y). This
 
 ## TO DO:
 - Customize timeout
-- Refresh points instance in runtime execution
 - Code refactor
+
+## DONE
+- [OK] Refresh points instance in runtime execution
