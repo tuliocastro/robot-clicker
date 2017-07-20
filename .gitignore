@@ -14,3 +14,4 @@ node_modules/
 app/node_modules/
 npm-debug*
 .DS_Store
+points.txt
