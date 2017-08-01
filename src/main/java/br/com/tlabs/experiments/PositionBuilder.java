@@ -35,7 +35,7 @@ public class PositionBuilder {
 
     }
 
-    private void load() {
+    public void load() {
 
         this.positions = new HashSet<>();
 
@@ -102,7 +102,6 @@ public class PositionBuilder {
     }
 
     public Set<Point> getPositions() {
-        load();
         return this.positions;
     }
 
